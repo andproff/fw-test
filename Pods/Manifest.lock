@@ -1,0 +1,12 @@
+PODS:
+  - LinkedinIOSHelper (1.0.6)
+
+DEPENDENCIES:
+  - LinkedinIOSHelper (~> 1.0.6)
+
+SPEC CHECKSUMS:
+  LinkedinIOSHelper: a6ce30be8a4e11fbf7531ae4611b5bebbe4b8de9
+
+PODFILE CHECKSUM: 6d998f48c7cd0cbf5a915d45bc315144c37223b7
+
+COCOAPODS: 1.0.0

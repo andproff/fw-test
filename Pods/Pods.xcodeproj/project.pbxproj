@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DAF1BA1D9A8848DD8B3E7D47DDFFCD1 /* PermissionEmailFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 6118EAA983B60498A882AB87A6C145F5 /* PermissionEmailFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1061F007476DA463A0153E8DAA38529F /* LinkedInConnectionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 062FA1D790E03D52BF32075D8078BE1D /* LinkedInConnectionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12D5F186D395FBB4907722F2B5FC83EE /* LinkedInHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE03FD41CAE7B9330FB9A5B805449F8 /* LinkedInHelper.m */; };
+		1999B8C0DFAEA57C2B3EF31CF5D5C36B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		204D5A1BF753788B2B5C04B935BC584A /* LinkedInAppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2FBA4DF80D0CC4B8548D3A1A1395C1 /* LinkedInAppSettings.m */; };
+		21C58EFD96E6609669A0790E30C32710 /* Pods-fw task-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE49EB20C5898A3B92C492448E7B81C /* Pods-fw task-dummy.m */; };
+		240B83FBC5DF986936BF1D39BA1312A6 /* LinkedinSimpleKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 476193B9F9CDCEF5566AE9E90643D8A4 /* LinkedinSimpleKeychain.m */; };
+		2C6D497ED8550218872CBB0443F31CB1 /* PermissionContactInfoFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 46AC235986710A12C4DF0C1F5C05B06F /* PermissionContactInfoFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31BCED120A5BAD6E7F08A817B621299F /* LinkedInAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2056EF0942F28D0E6C81FE8420DE1 /* LinkedInAuthorizationViewController.m */; };
+		3A4B696A3BF19080E25B9335B76F4C62 /* PermissionFullProfileFields.h in Headers */ = {isa = PBXBuildFile; fileRef = CC856D88790339EFA0CC7DDA7EDC98EF /* PermissionFullProfileFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44BA8C5FB794BF50D7561579A43E1C4E /* PermissionNetworkFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E9D91FDB87575081642BA3F934B736 /* PermissionNetworkFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		520D95217307CD0C404DB57BA5DE132F /* LinkedInConnectionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C747EB746F687E746B2F8A5D7AD9A157 /* LinkedInConnectionHandler.m */; };
+		53569437EF1325AB103AC7803EED1BC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		63CA68A6C3510ABE552922C6231634D0 /* PermissionFullProfileFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ECF719ECA189AB97EA1D0381DFD445 /* PermissionFullProfileFields.m */; };
+		694602B6A2BD9BC3260F173B3C398C2B /* LinkedInHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C445815A4D8D26BBD7945F0DEEE73DA1 /* LinkedInHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A9AFF9FAAB0015911D6D8CB7CF0A033 /* PermissionBasicProfileFields.h in Headers */ = {isa = PBXBuildFile; fileRef = C3FDF212463315168387B8BE0BA268E8 /* PermissionBasicProfileFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70D447B1B71AA094FE55576B400BFA5D /* PermissionNetworkFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A6528AAF1EF1BB9C316A5DF7380FE8 /* PermissionNetworkFields.m */; };
+		7408877BE5087D6805283DF829DC5C73 /* PermissionContactInfoFields.m in Sources */ = {isa = PBXBuildFile; fileRef = A41B0487F4E391E6738DAED05C93333C /* PermissionContactInfoFields.m */; };
+		8AB7F10A2D271963C5A9C632EF8B8458 /* LinkedinSimpleKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4D390CD61F51C97F59AE3A9A1D1DE8 /* LinkedinSimpleKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C30E1ACA8FE3DA80E63DEA6E5E397E /* LinkedinIOSHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2675ED8D0F09919224A3D31A9D80AE7 /* LinkedinIOSHelper-dummy.m */; };
+		BAED01B3B5A5B3DF283A07463ED263BA /* LinkedInServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5577320412FA2AA67C1159999565E /* LinkedInServiceManager.m */; };
+		C2F118F805C1AEE19DBC6D73665B87E8 /* Pods-fw task-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AECD0BD419C621F40F33C77EDD631134 /* Pods-fw task-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3FDD52F3C7A946E8E8CD6ECBBF4E341 /* LinkedinIOSHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4000B601584923D9DF3A1735932F285 /* LinkedinIOSHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD0B238FD82E8B0D2F1F11274755454 /* PermissionEmailFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C03C75B6558B912CA7951DCECD498FF /* PermissionEmailFields.m */; };
+		DED262AA90A5B2255B3BB4774A828681 /* LinkedInAppSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C0EA6E4FFAECE899F09E417AC5EB21 /* LinkedInAppSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEE2DAF6BAC0633B154EDC525A7F87DE /* PermissionBasicProfileFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 06436D99C867E1123C63D03E0F0524C5 /* PermissionBasicProfileFields.m */; };
+		E4CF3D6B52474F3C99AA0F66D1AFC582 /* LinkedInAuthorizationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B62D872376E2AC0524C573B70E801E7 /* LinkedInAuthorizationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8A51B6153AC64EBFBA083CB12E8E642 /* LinkedInIOSFields.h in Headers */ = {isa = PBXBuildFile; fileRef = BB0DEEBE3530C09ABCBC3F523B998A4E /* LinkedInIOSFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFE2B0A77DDA8C0251749A6E603BDABF /* LinkedInServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EC2AA719B805A1722B2B7E513294DE08 /* LinkedInServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCBFB05DF57A2A5FE427E529B102344F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6121C9B08FF96835A5AA01E285B62F72;
+			remoteInfo = LinkedinIOSHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F6EF70FDF93A6B75B0E826F91AAC4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062FA1D790E03D52BF32075D8078BE1D /* LinkedInConnectionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LinkedInConnectionHandler.h; path = LinkedInIOSHelper/LinkedInHelper/LinkedInConnectionHandler.h; sourceTree = "<group>"; };
+		06436D99C867E1123C63D03E0F0524C5 /* PermissionBasicProfileFields.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PermissionBasicProfileFields.m; path = LinkedInIOSHelper/Constants/PermissionBasicProfileFields.m; sourceTree = "<group>"; };
+		06EB65C84DD3E00B9B2D2967BCD2CF6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB2056EF0942F28D0E6C81FE8420DE1 /* LinkedInAuthorizationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LinkedInAuthorizationViewController.m; path = LinkedInIOSHelper/LinkedInHelper/LinkedInAuthorizationViewController.m; sourceTree = "<group>"; };
+		10C0EA6E4FFAECE899F09E417AC5EB21 /* LinkedInAppSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LinkedInAppSettings.h; path = LinkedInIOSHelper/LinkedInHelper/LinkedInAppSettings.h; sourceTree = "<group>"; };
+		23F49EB370437520282D415B46BA3109 /* LinkedinIOSHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LinkedinIOSHelper.xcconfig; sourceTree = "<group>"; };
+		28ECF719ECA189AB97EA1D0381DFD445 /* PermissionFullProfileFields.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PermissionFullProfileFields.m; path = LinkedInIOSHelper/Constants/PermissionFullProfileFields.m; sourceTree = "<group>"; };
+		2AE49EB20C5898A3B92C492448E7B81C /* Pods-fw task-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fw task-dummy.m"; sourceTree = "<group>"; };
+		3AEAD886A787C8FA6EA3D24521EA5F00 /* Pods-fw task.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-fw task.modulemap"; sourceTree = "<group>"; };
+		3BD0F7B98DB23AAFD3F5A12A954E08B0 /* Pods-fw task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fw task.debug.xcconfig"; sourceTree = "<group>"; };
+		3C6529B1A1EFE037A92D997816B6E0BD /* Pods-fw task-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fw task-acknowledgements.plist"; sourceTree = "<group>"; };
+		41A43793160253B46C690CF843FE0F8F /* LinkedinIOSHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LinkedinIOSHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A6528AAF1EF1BB9C316A5DF7380FE8 /* PermissionNetworkFields.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PermissionNetworkFields.m; path = LinkedInIOSHelper/Constants/PermissionNetworkFields.m; sourceTree = "<group>"; };
+		46AC235986710A12C4DF0C1F5C05B06F /* PermissionContactInfoFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PermissionContactInfoFields.h; path = LinkedInIOSHelper/Constants/PermissionContactInfoFields.h; sourceTree = "<group>"; };
+		476193B9F9CDCEF5566AE9E90643D8A4 /* LinkedinSimpleKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LinkedinSimpleKeychain.m; path = LinkedInIOSHelper/LinkedInHelper/LinkedinSimpleKeychain.m; sourceTree = "<group>"; };
+		4B62D872376E2AC0524C573B70E801E7 /* LinkedInAuthorizationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LinkedInAuthorizationViewController.h; path = LinkedInIOSHelper/LinkedInHelper/LinkedInAuthorizationViewController.h; sourceTree = "<group>"; };
+		4C03C75B6558B912CA7951DCECD498FF /* PermissionEmailFields.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PermissionEmailFields.m; path = LinkedInIOSHelper/Constants/PermissionEmailFields.m; sourceTree = "<group>"; };
+		5D4D390CD61F51C97F59AE3A9A1D1DE8 /* LinkedinSimpleKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LinkedinSimpleKeychain.h; path = LinkedInIOSHelper/LinkedInHelper/LinkedinSimpleKeychain.h; sourceTree = "<group>"; };
+		6118EAA983B60498A882AB87A6C145F5 /* PermissionEmailFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PermissionEmailFields.h; path = LinkedInIOSHelper/Constants/PermissionEmailFields.h; sourceTree = "<group>"; };
+		67E5577320412FA2AA67C1159999565E /* LinkedInServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LinkedInServiceManager.m; path = LinkedInIOSHelper/LinkedInHelper/LinkedInServiceManager.m; sourceTree = "<group>"; };
+		68E9D91FDB87575081642BA3F934B736 /* PermissionNetworkFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PermissionNetworkFields.h; path = LinkedInIOSHelper/Constants/PermissionNetworkFields.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A19F90E89E52CB8C5724C24062951A8B /* Pods_fw_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fw_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41B0487F4E391E6738DAED05C93333C /* PermissionContactInfoFields.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PermissionContactInfoFields.m; path = LinkedInIOSHelper/Constants/PermissionContactInfoFields.m; sourceTree = "<group>"; };
+		AB5002B00F7F95B4657C976A213D3782 /* Pods-fw task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fw task.release.xcconfig"; sourceTree = "<group>"; };
+		AB7ABCFB6996210F53104CEF06CA7407 /* Pods-fw task-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fw task-frameworks.sh"; sourceTree = "<group>"; };
+		AECD0BD419C621F40F33C77EDD631134 /* Pods-fw task-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fw task-umbrella.h"; sourceTree = "<group>"; };
+		B2675ED8D0F09919224A3D31A9D80AE7 /* LinkedinIOSHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LinkedinIOSHelper-dummy.m"; sourceTree = "<group>"; };
+		BB0DEEBE3530C09ABCBC3F523B998A4E /* LinkedInIOSFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LinkedInIOSFields.h; path = LinkedInIOSHelper/Constants/LinkedInIOSFields.h; sourceTree = "<group>"; };
+		C2AE3300E14078C864CE05C098B8B59B /* LinkedinIOSHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinkedinIOSHelper-prefix.pch"; sourceTree = "<group>"; };
+		C3FDF212463315168387B8BE0BA268E8 /* PermissionBasicProfileFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PermissionBasicProfileFields.h; path = LinkedInIOSHelper/Constants/PermissionBasicProfileFields.h; sourceTree = "<group>"; };
+		C445815A4D8D26BBD7945F0DEEE73DA1 /* LinkedInHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LinkedInHelper.h; path = LinkedInIOSHelper/LinkedInHelper/LinkedInHelper.h; sourceTree = "<group>"; };
+		C747EB746F687E746B2F8A5D7AD9A157 /* LinkedInConnectionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LinkedInConnectionHandler.m; path = LinkedInIOSHelper/LinkedInHelper/LinkedInConnectionHandler.m; sourceTree = "<group>"; };
+		CC856D88790339EFA0CC7DDA7EDC98EF /* PermissionFullProfileFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PermissionFullProfileFields.h; path = LinkedInIOSHelper/Constants/PermissionFullProfileFields.h; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4000B601584923D9DF3A1735932F285 /* LinkedinIOSHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinkedinIOSHelper-umbrella.h"; sourceTree = "<group>"; };
+		E2523A3D17039312088988BAC7B239E5 /* Pods-fw task-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fw task-resources.sh"; sourceTree = "<group>"; };
+		EC2AA719B805A1722B2B7E513294DE08 /* LinkedInServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LinkedInServiceManager.h; path = LinkedInIOSHelper/LinkedInHelper/LinkedInServiceManager.h; sourceTree = "<group>"; };
+		ECE03FD41CAE7B9330FB9A5B805449F8 /* LinkedInHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LinkedInHelper.m; path = LinkedInIOSHelper/LinkedInHelper/LinkedInHelper.m; sourceTree = "<group>"; };
+		EF2FBA4DF80D0CC4B8548D3A1A1395C1 /* LinkedInAppSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LinkedInAppSettings.m; path = LinkedInIOSHelper/LinkedInHelper/LinkedInAppSettings.m; sourceTree = "<group>"; };
+		F36A3D78CF43E3446F156EE6BC67D176 /* Pods-fw task-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fw task-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA87A724D020BB29FA8CEF9B67A41427 /* LinkedinIOSHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LinkedinIOSHelper.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BD7013142877B412C80F5531475950B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53569437EF1325AB103AC7803EED1BC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F190F42B6BCCB3FBE944F81C74B07B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1999B8C0DFAEA57C2B3EF31CF5D5C36B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1637BD4134559FE6586F0EAAF2A909FF /* Pods-fw task */ = {
+			isa = PBXGroup;
+			children = (
+				04F6EF70FDF93A6B75B0E826F91AAC4B /* Info.plist */,
+				3AEAD886A787C8FA6EA3D24521EA5F00 /* Pods-fw task.modulemap */,
+				F36A3D78CF43E3446F156EE6BC67D176 /* Pods-fw task-acknowledgements.markdown */,
+				3C6529B1A1EFE037A92D997816B6E0BD /* Pods-fw task-acknowledgements.plist */,
+				2AE49EB20C5898A3B92C492448E7B81C /* Pods-fw task-dummy.m */,
+				AB7ABCFB6996210F53104CEF06CA7407 /* Pods-fw task-frameworks.sh */,
+				E2523A3D17039312088988BAC7B239E5 /* Pods-fw task-resources.sh */,
+				AECD0BD419C621F40F33C77EDD631134 /* Pods-fw task-umbrella.h */,
+				3BD0F7B98DB23AAFD3F5A12A954E08B0 /* Pods-fw task.debug.xcconfig */,
+				AB5002B00F7F95B4657C976A213D3782 /* Pods-fw task.release.xcconfig */,
+			);
+			name = "Pods-fw task";
+			path = "Target Support Files/Pods-fw task";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		644C1C67DD4BC135A13FE3BE113F69FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41A43793160253B46C690CF843FE0F8F /* LinkedinIOSHelper.framework */,
+				A19F90E89E52CB8C5724C24062951A8B /* Pods_fw_task.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BEFC49445899632C7DE5FF42D802D17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC350CEAF599B61735363B8816315159 /* LinkedinIOSHelper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7BA23E3B03912BC4B256DEA7A2EF4A6B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06EB65C84DD3E00B9B2D2967BCD2CF6B /* Info.plist */,
+				FA87A724D020BB29FA8CEF9B67A41427 /* LinkedinIOSHelper.modulemap */,
+				23F49EB370437520282D415B46BA3109 /* LinkedinIOSHelper.xcconfig */,
+				B2675ED8D0F09919224A3D31A9D80AE7 /* LinkedinIOSHelper-dummy.m */,
+				C2AE3300E14078C864CE05C098B8B59B /* LinkedinIOSHelper-prefix.pch */,
+				D4000B601584923D9DF3A1735932F285 /* LinkedinIOSHelper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LinkedinIOSHelper";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6BEFC49445899632C7DE5FF42D802D17 /* Pods */,
+				644C1C67DD4BC135A13FE3BE113F69FC /* Products */,
+				BB83D584D5E970C6C5CE13ABCA8E7906 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BB83D584D5E970C6C5CE13ABCA8E7906 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1637BD4134559FE6586F0EAAF2A909FF /* Pods-fw task */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC350CEAF599B61735363B8816315159 /* LinkedinIOSHelper */ = {
+			isa = PBXGroup;
+			children = (
+				10C0EA6E4FFAECE899F09E417AC5EB21 /* LinkedInAppSettings.h */,
+				EF2FBA4DF80D0CC4B8548D3A1A1395C1 /* LinkedInAppSettings.m */,
+				4B62D872376E2AC0524C573B70E801E7 /* LinkedInAuthorizationViewController.h */,
+				0DB2056EF0942F28D0E6C81FE8420DE1 /* LinkedInAuthorizationViewController.m */,
+				062FA1D790E03D52BF32075D8078BE1D /* LinkedInConnectionHandler.h */,
+				C747EB746F687E746B2F8A5D7AD9A157 /* LinkedInConnectionHandler.m */,
+				C445815A4D8D26BBD7945F0DEEE73DA1 /* LinkedInHelper.h */,
+				ECE03FD41CAE7B9330FB9A5B805449F8 /* LinkedInHelper.m */,
+				BB0DEEBE3530C09ABCBC3F523B998A4E /* LinkedInIOSFields.h */,
+				EC2AA719B805A1722B2B7E513294DE08 /* LinkedInServiceManager.h */,
+				67E5577320412FA2AA67C1159999565E /* LinkedInServiceManager.m */,
+				5D4D390CD61F51C97F59AE3A9A1D1DE8 /* LinkedinSimpleKeychain.h */,
+				476193B9F9CDCEF5566AE9E90643D8A4 /* LinkedinSimpleKeychain.m */,
+				C3FDF212463315168387B8BE0BA268E8 /* PermissionBasicProfileFields.h */,
+				06436D99C867E1123C63D03E0F0524C5 /* PermissionBasicProfileFields.m */,
+				46AC235986710A12C4DF0C1F5C05B06F /* PermissionContactInfoFields.h */,
+				A41B0487F4E391E6738DAED05C93333C /* PermissionContactInfoFields.m */,
+				6118EAA983B60498A882AB87A6C145F5 /* PermissionEmailFields.h */,
+				4C03C75B6558B912CA7951DCECD498FF /* PermissionEmailFields.m */,
+				CC856D88790339EFA0CC7DDA7EDC98EF /* PermissionFullProfileFields.h */,
+				28ECF719ECA189AB97EA1D0381DFD445 /* PermissionFullProfileFields.m */,
+				68E9D91FDB87575081642BA3F934B736 /* PermissionNetworkFields.h */,
+				44A6528AAF1EF1BB9C316A5DF7380FE8 /* PermissionNetworkFields.m */,
+				7BA23E3B03912BC4B256DEA7A2EF4A6B /* Support Files */,
+			);
+			path = LinkedinIOSHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		94A95F03A64C20FDE931FA8F1F7B8568 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F118F805C1AEE19DBC6D73665B87E8 /* Pods-fw task-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA6E6D51B73BF832CD31F6609771950 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED262AA90A5B2255B3BB4774A828681 /* LinkedInAppSettings.h in Headers */,
+				E4CF3D6B52474F3C99AA0F66D1AFC582 /* LinkedInAuthorizationViewController.h in Headers */,
+				1061F007476DA463A0153E8DAA38529F /* LinkedInConnectionHandler.h in Headers */,
+				694602B6A2BD9BC3260F173B3C398C2B /* LinkedInHelper.h in Headers */,
+				E8A51B6153AC64EBFBA083CB12E8E642 /* LinkedInIOSFields.h in Headers */,
+				C3FDD52F3C7A946E8E8CD6ECBBF4E341 /* LinkedinIOSHelper-umbrella.h in Headers */,
+				EFE2B0A77DDA8C0251749A6E603BDABF /* LinkedInServiceManager.h in Headers */,
+				8AB7F10A2D271963C5A9C632EF8B8458 /* LinkedinSimpleKeychain.h in Headers */,
+				6A9AFF9FAAB0015911D6D8CB7CF0A033 /* PermissionBasicProfileFields.h in Headers */,
+				2C6D497ED8550218872CBB0443F31CB1 /* PermissionContactInfoFields.h in Headers */,
+				0DAF1BA1D9A8848DD8B3E7D47DDFFCD1 /* PermissionEmailFields.h in Headers */,
+				3A4B696A3BF19080E25B9335B76F4C62 /* PermissionFullProfileFields.h in Headers */,
+				44BA8C5FB794BF50D7561579A43E1C4E /* PermissionNetworkFields.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6121C9B08FF96835A5AA01E285B62F72 /* LinkedinIOSHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E559B9741A427C5655A7F277EB0AD1EF /* Build configuration list for PBXNativeTarget "LinkedinIOSHelper" */;
+			buildPhases = (
+				43C70145C679C67EFC6CD12AB61D994A /* Sources */,
+				F190F42B6BCCB3FBE944F81C74B07B50 /* Frameworks */,
+				CBA6E6D51B73BF832CD31F6609771950 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkedinIOSHelper;
+			productName = LinkedinIOSHelper;
+			productReference = 41A43793160253B46C690CF843FE0F8F /* LinkedinIOSHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4C21234B09A3D643EAF5B6E8E8D1083 /* Pods-fw task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B8CCC7C7357FCF406629C17EA29027 /* Build configuration list for PBXNativeTarget "Pods-fw task" */;
+			buildPhases = (
+				C4F32C927428FC5FFBB1C7AF0528AB85 /* Sources */,
+				5BD7013142877B412C80F5531475950B /* Frameworks */,
+				94A95F03A64C20FDE931FA8F1F7B8568 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11F47E1D0B5EFFC515CB64F673A0D03B /* PBXTargetDependency */,
+			);
+			name = "Pods-fw task";
+			productName = "Pods-fw task";
+			productReference = A19F90E89E52CB8C5724C24062951A8B /* Pods_fw_task.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 644C1C67DD4BC135A13FE3BE113F69FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6121C9B08FF96835A5AA01E285B62F72 /* LinkedinIOSHelper */,
+				A4C21234B09A3D643EAF5B6E8E8D1083 /* Pods-fw task */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43C70145C679C67EFC6CD12AB61D994A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204D5A1BF753788B2B5C04B935BC584A /* LinkedInAppSettings.m in Sources */,
+				31BCED120A5BAD6E7F08A817B621299F /* LinkedInAuthorizationViewController.m in Sources */,
+				520D95217307CD0C404DB57BA5DE132F /* LinkedInConnectionHandler.m in Sources */,
+				12D5F186D395FBB4907722F2B5FC83EE /* LinkedInHelper.m in Sources */,
+				A4C30E1ACA8FE3DA80E63DEA6E5E397E /* LinkedinIOSHelper-dummy.m in Sources */,
+				BAED01B3B5A5B3DF283A07463ED263BA /* LinkedInServiceManager.m in Sources */,
+				240B83FBC5DF986936BF1D39BA1312A6 /* LinkedinSimpleKeychain.m in Sources */,
+				DEE2DAF6BAC0633B154EDC525A7F87DE /* PermissionBasicProfileFields.m in Sources */,
+				7408877BE5087D6805283DF829DC5C73 /* PermissionContactInfoFields.m in Sources */,
+				DBD0B238FD82E8B0D2F1F11274755454 /* PermissionEmailFields.m in Sources */,
+				63CA68A6C3510ABE552922C6231634D0 /* PermissionFullProfileFields.m in Sources */,
+				70D447B1B71AA094FE55576B400BFA5D /* PermissionNetworkFields.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F32C927428FC5FFBB1C7AF0528AB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C58EFD96E6609669A0790E30C32710 /* Pods-fw task-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11F47E1D0B5EFFC515CB64F673A0D03B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LinkedinIOSHelper;
+			target = 6121C9B08FF96835A5AA01E285B62F72 /* LinkedinIOSHelper */;
+			targetProxy = CCBFB05DF57A2A5FE427E529B102344F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B3FAA0BCD7074F67ADE2F459C31E50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F49EB370437520282D415B46BA3109 /* LinkedinIOSHelper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LinkedinIOSHelper/LinkedinIOSHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LinkedinIOSHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LinkedinIOSHelper/LinkedinIOSHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LinkedinIOSHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24F44E33CB974665F68EF1921BD91692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5002B00F7F95B4657C976A213D3782 /* Pods-fw task.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-fw task/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fw task/Pods-fw task.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_fw_task;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		980A9DF527C98095F37E8DC4C884E06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F49EB370437520282D415B46BA3109 /* LinkedinIOSHelper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LinkedinIOSHelper/LinkedinIOSHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LinkedinIOSHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LinkedinIOSHelper/LinkedinIOSHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LinkedinIOSHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2113D93E0A156B2638087958C4386DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD0F7B98DB23AAFD3F5A12A954E08B0 /* Pods-fw task.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-fw task/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fw task/Pods-fw task.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_fw_task;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B8CCC7C7357FCF406629C17EA29027 /* Build configuration list for PBXNativeTarget "Pods-fw task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2113D93E0A156B2638087958C4386DF /* Debug */,
+				24F44E33CB974665F68EF1921BD91692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E559B9741A427C5655A7F277EB0AD1EF /* Build configuration list for PBXNativeTarget "LinkedinIOSHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980A9DF527C98095F37E8DC4C884E06E /* Debug */,
+				0B3FAA0BCD7074F67ADE2F459C31E50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
