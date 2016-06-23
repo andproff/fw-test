@@ -23,11 +23,20 @@ class ViewController: UIViewController {
 
     
     func logInLinkedIn() {
-        
+        LoginManager.sharedInstance.getUserInfo(self)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(ViewController.linkedinSucces(_:)), name: "succes", object: nil)
     }
+    
+    func linkedinSucces(notification: NSNotification) {
+        NSNotificationCenter.defaultCenter().removeObserver(self)
+        performSegueWithIdentifier("segue1", sender: self)
+    }
+    
     func logInGoogle() {
         
     }
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

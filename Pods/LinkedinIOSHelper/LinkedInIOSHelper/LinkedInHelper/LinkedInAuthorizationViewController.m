@@ -113,7 +113,7 @@ NSString * const linkedinIosHelperDomain = @"com.linkedinioshelper";
             NSString *receivedState = [self extractGetParameter:@"state" fromURLString: url];
             
             //assert that the state is as we expected it to be
-            if ([self.serviceManager.settings.state isEqualToString:receivedState]) {
+            if ( [receivedState containsString: self.serviceManager.settings.state]) {
                 
                 //extract the code from the url
                 NSString *authorizationCode = [self extractGetParameter:@"code" fromURLString: url];

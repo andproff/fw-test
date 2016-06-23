@@ -18,25 +18,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knh-zy-EfO">
-                                <rect key="frame" x="269" y="157" width="62" height="30"/>
+                                <rect key="frame" x="269" y="159" width="62" height="30"/>
                                 <state key="normal" title="Linked In"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHn-Qy-F3z">
-                                <rect key="frame" x="250" y="348" width="100" height="30"/>
+                                <rect key="frame" x="250" y="285" width="100" height="30"/>
                                 <state key="normal" title="Google Sign In"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="knh-zy-EfO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LJj-Vf-yo5"/>
-                            <constraint firstItem="knh-zy-EfO" firstAttribute="centerX" secondItem="xHn-Qy-F3z" secondAttribute="centerX" id="R4n-b6-hKt"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xHn-Qy-F3z" secondAttribute="bottom" constant="222" id="X8I-nh-ai0"/>
-                            <constraint firstItem="knh-zy-EfO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="137" id="f9H-bT-QcZ"/>
+                            <constraint firstItem="xHn-Qy-F3z" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2H8-QL-HmI"/>
+                            <constraint firstItem="knh-zy-EfO" firstAttribute="centerX" secondItem="xHn-Qy-F3z" secondAttribute="centerX" id="dOo-U7-6IG"/>
+                            <constraint firstItem="xHn-Qy-F3z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hyY-cb-ytU"/>
+                            <constraint firstItem="knh-zy-EfO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iby-Oh-z0D"/>
+                            <constraint firstItem="xHn-Qy-F3z" firstAttribute="top" secondItem="knh-zy-EfO" secondAttribute="bottom" constant="96" id="sKe-ef-Fpz"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="button1" destination="knh-zy-EfO" id="Hch-rf-nJw"/>
                         <outlet property="button2" destination="xHn-Qy-F3z" id="oVZ-NK-Zgd"/>
+                        <segue destination="bHq-1Z-n5B" kind="show" identifier="segue1" id="eig-Sc-QMq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -55,13 +57,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LX7-n7-E3K">
-                                <rect key="frame" x="276" y="213" width="45" height="21"/>
+                                <rect key="frame" x="278" y="143" width="45" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cA-b6-XqZ">
-                                <rect key="frame" x="280" y="319" width="41" height="21"/>
+                                <rect key="frame" x="280" y="205" width="41" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -69,20 +71,22 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="LX7-n7-E3K" firstAttribute="trailing" secondItem="3cA-b6-XqZ" secondAttribute="trailing" id="5HK-x7-99d"/>
-                            <constraint firstItem="3cA-b6-XqZ" firstAttribute="top" secondItem="LX7-n7-E3K" secondAttribute="bottom" constant="85" id="Gmj-9X-JPO"/>
-                            <constraint firstItem="3cA-b6-XqZ" firstAttribute="centerX" secondItem="jcU-S1-3fZ" secondAttribute="centerX" id="aRb-vd-DnN"/>
-                            <constraint firstItem="LX7-n7-E3K" firstAttribute="top" secondItem="6D2-0i-NLB" secondAttribute="bottom" constant="193" id="e1m-bM-bqX"/>
+                            <constraint firstItem="3cA-b6-XqZ" firstAttribute="top" secondItem="LX7-n7-E3K" secondAttribute="bottom" constant="41" id="6gg-WK-wvl"/>
+                            <constraint firstItem="LX7-n7-E3K" firstAttribute="centerX" secondItem="jcU-S1-3fZ" secondAttribute="centerX" id="ESs-9a-AAv"/>
+                            <constraint firstItem="LX7-n7-E3K" firstAttribute="top" secondItem="6D2-0i-NLB" secondAttribute="bottom" constant="123" id="X9f-CG-FWU"/>
+                            <constraint firstItem="LX7-n7-E3K" firstAttribute="centerX" secondItem="jcU-S1-3fZ" secondAttribute="centerX" id="gYs-48-WYr"/>
+                            <constraint firstItem="LX7-n7-E3K" firstAttribute="centerX" secondItem="3cA-b6-XqZ" secondAttribute="centerX" id="wBR-Rg-JPK"/>
+                            <constraint firstItem="3cA-b6-XqZ" firstAttribute="centerX" secondItem="jcU-S1-3fZ" secondAttribute="centerX" id="zc7-ha-vfC"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="label1" destination="LX7-n7-E3K" id="ZtQ-dU-klR"/>
-                        <outlet property="label2" destination="3cA-b6-XqZ" id="agc-UU-yPw"/>
+                        <outlet property="label1" destination="LX7-n7-E3K" id="6fc-KK-fk8"/>
+                        <outlet property="label2" destination="3cA-b6-XqZ" id="6UL-d5-cXI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="95A-5i-ncw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1008" y="387"/>
+            <point key="canvasLocation" x="1138" y="370"/>
         </scene>
     </scenes>
 </document>
