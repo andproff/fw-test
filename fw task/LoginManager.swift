@@ -44,37 +44,4 @@ public class LoginManager {
     }
     
     
-    /*
-     - (void)fetchUserInformations {
-     
-     LinkedInHelper *linkedIn = [LinkedInHelper sharedInstance];
-     
-     linkedIn.cancelButtonText = @"Close"; // Or any other language But Default is Close
-     
-     NSArray *permissions = @[@(BasicProfile),
-     @(EmailAddress),
-     @(Share),
-     @(CompanyAdmin)];
-     
-     linkedIn.showActivityIndicator = YES;
-     
-     #warning - Your LinkedIn App ClientId - ClientSecret - RedirectUrl
-     
-     [linkedIn requestMeWithSenderViewController:self
-     clientId:@""         // Your App Client Id
-     clientSecret:@""         // Your App Client Secret
-     redirectUrl:@""         // Your App Redirect Url
-     permissions:permissions
-     state:@""               // Your client state
-     successUserInfo:^(NSDictionary *userInfo) {
-     // Whole User Info
-     NSLog(@"user Info : %@", userInfo);
-     }
-     failUserInfoBlock:^(NSError *error) {
-     NSLog(@"error : %@", error.userInfo.description);
-     }
-     ];
-     }
-     */
-    
 }
